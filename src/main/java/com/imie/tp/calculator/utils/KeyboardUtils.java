@@ -19,7 +19,7 @@ public final class KeyboardUtils {
 
         System.out.println(displayAsk);
 
-        keyboard.close();
+        //keyboard.close();
 
         return keyboard.nextLine();
     }
