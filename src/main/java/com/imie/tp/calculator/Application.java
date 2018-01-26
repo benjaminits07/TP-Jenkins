@@ -1,14 +1,23 @@
 package com.imie.tp.calculator;
 
+/**
+ * 
+ * @author benjamin
+ *
+ */
 public class Application {
 
+	/**
+	 * 
+	 * @param args
+	 */
     public static void main(String[] args) {
 
         // Process...
         // Display & Ask "Type of Operation ":
         //               - 1 : Addition
         //               - 2 : Subtraction
-        //               - 3 : Diviside
+        //               - 3 : Divide
         //               - 4 : Multiplication
         //               - 5 : Display History
         //               - 9 : Quit
@@ -27,6 +36,8 @@ public class Application {
         // If enter 9 => Quit application
 
         //TODO
+    	System.out.println("Hello W !!!");
+
     }
 
 }
