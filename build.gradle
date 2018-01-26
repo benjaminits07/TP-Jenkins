@@ -5,6 +5,7 @@ apply plugin: 'findbugs'
 apply plugin: 'pmd'
 apply plugin: 'checkstyle'
 apply plugin: 'jacoco'
+apply plugin: 'jdepend'
 
 repositories {
     mavenCentral()
@@ -51,6 +52,10 @@ pmd {
 
 jacoco {
     toolVersion "0.7.5.201505241946"
+}
+
+jdepend {
+    ignoreFailures = true
 }
 
 task cpdMain(dependsOn: 'pmdMain') {
