@@ -49,22 +49,37 @@ public class Application {
     	String saisie = KeyboardUtils.readFromKeyboard("Votre choix :");
     	int value = Integer.parseInt(saisie);
 
-
-        String choice;
+        int choice;
         switch (value) {
-            case 1:  choice = "function addition";
+            case 1: String a = KeyboardUtils.readFromKeyboard("Enter value a :");
+        			int aa = Integer.parseInt(a);
+        			String b = KeyboardUtils.readFromKeyboard("Enter value b :");
+                	int bb = Integer.parseInt(b);
+                	choice = aa + bb;
                      break;
-            case 2:  choice = "- 2 : Substraction";
+            case 2:  String c = KeyboardUtils.readFromKeyboard("Enter value a :");
+					 int cc = Integer.parseInt(c);
+					 String d = KeyboardUtils.readFromKeyboard("Enter value b :");
+		        	 int dd = Integer.parseInt(d);
+		        	 choice = cc - dd;
                      break;
-            case 3:  choice = "- 3 : Divide";
+            case 3:  String e = KeyboardUtils.readFromKeyboard("Enter value a :");
+			 		 int ee = Integer.parseInt(e);
+			 		 String f = KeyboardUtils.readFromKeyboard("Enter value b :");
+			 		 int ff = Integer.parseInt(f);
+			 		 choice = ee / ff;
                      break;
-            case 4:  choice = "- 4 : Multiplication";
+            case 4:  String g = KeyboardUtils.readFromKeyboard("Enter value a :");
+			 		 int gg = Integer.parseInt(g);
+			 		 String h = KeyboardUtils.readFromKeyboard("Enter value b :");
+			 		 int hh = Integer.parseInt(h);
+			 		 choice = gg * hh;
                      break;
-            case 5:  choice = "- 5 : Display History";
+            case 5:  choice = 5;
                      break;
-            case 9:  choice = "- 9 : Quit";
+            case 9:  choice = 6;
                      break;
-            default: choice = "Invalid choice";
+            default: choice = 12;
                      break;
         }
         System.out.println(choice);
