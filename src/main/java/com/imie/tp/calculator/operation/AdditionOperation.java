@@ -1,3 +1,8 @@
+/**
+ * @author benjamin
+ */
+
+
 package com.imie.tp.calculator.operation;
 
 /**
@@ -8,7 +13,7 @@ public class AdditionOperation extends OperationCommandBase {
 	/**
 	 *
 	 */
-    protected float baseValue = 0;
+    protected float baseValue;
 
     /**
      *

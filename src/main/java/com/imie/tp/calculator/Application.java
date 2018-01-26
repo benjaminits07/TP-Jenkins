@@ -1,14 +1,14 @@
 package com.imie.tp.calculator;
 
 /**
- * 
+ *
  * @author benjamin
  *
  */
 public class Application {
 
 	/**
-	 * 
+	 *
 	 * @param args
 	 */
     public static void main(String[] args) {
