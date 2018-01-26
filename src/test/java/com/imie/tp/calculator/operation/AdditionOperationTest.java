@@ -29,6 +29,7 @@ public class AdditionOperationTest {
     public void tearDown() throws Exception {
         this.add = null;
     }
+    
     @Test
     public void testMake() {
         this.add.make(2);
