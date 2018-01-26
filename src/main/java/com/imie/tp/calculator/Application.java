@@ -1,12 +1,18 @@
-package com.imie.tp.calculator;
-
-import com.imie.tp.calculator.utils.KeyboardUtils;
-
 /**
  *
  * @author benjamin
  *
  */
+
+package com.imie.tp.calculator;
+
+import com.imie.tp.calculator.utils.KeyboardUtils;
+
+/**
+*
+* @author benjamin
+*
+*/
 public class Application {
 
 	/**
